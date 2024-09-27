@@ -6,17 +6,17 @@ export default function Projects() {
     <>
         <div className='hidden sm:flex w-full h-screen bg-black  justify-center items-center'>
             <ProjectCard url="smart-flash.jpg" title="Smart-Flash" description="An AI generated flashcard application."
-            hoverColor='bg-gradient-to-bl from-cyan-600 to-gray-600'
+            hoverColor='from-cyan-600 to-gray-600'
             />
         </div>
         <div className='hidden sm:flex w-full h-screen bg-black justify-center items-center'>
             <ProjectCard url="UwProfessorAi.jpeg" title="Uw Professor Ai" description="A chatbot professor assistant"
-            hoverColor='bg-gradient-to-bl from-purple-900 to-gray-900'
+            hoverColor='from-purple-900 to-gray-900'
             />
         </div>
         <div className='hidden sm:flex w-full h-screen bg-black  justify-center items-center'>
             <ProjectCard url="inventory-management-system.jpeg" title="Inventory Management" description="Keep track of what in inventory"
-            hoverColor='bg-gradient-to-bl from-emerald-800 to-stone-800'
+            hoverColor='from-emerald-800 to-stone-800'
             />
         </div>
         <div className='hidden sm:block bg-black pb-40'>

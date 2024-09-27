@@ -1,11 +1,13 @@
 import React from 'react'
+import InfoTittle from './InfoTittle'
+import Information from './Information'
 
 export default function InfoPage() {
   return (
-    <div className='w-full h-full bg-black text-white'>
-        <h1>
-            Info Page
-        </h1>
-    </div>
+    <>
+        <InfoTittle/>
+        <Information/>
+        
+    </>
   )
 }
