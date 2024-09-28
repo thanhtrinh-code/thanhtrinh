@@ -28,6 +28,9 @@ export default function Footer() {
     <a href='/info' className='text-gray-30 text-xl hover:text-white transition-colors duration-300'>
       Info
     </a>
+    <p className='text-base font-light text-gray-400 pt-16'>
+    Credit to Perry Wang for website
+    </p>
   </div>
 
   {/* Contact Section */}
