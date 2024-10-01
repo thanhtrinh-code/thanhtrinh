@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Left3() {
+export default function Mobile() {
   return (
     <div className="flex flex-col w-full pr-10 text-center items-center px-4">
         <div className="mb-4">

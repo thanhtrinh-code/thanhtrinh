@@ -1,6 +1,6 @@
 import Left from "./Left";
 import Left2 from "./Left2";
-import Left3 from "./Left3";
+import Mobile from "./Mobile";
 import Right from "./Right";
 import Right2 from "./Right2";
 import {motion} from 'framer-motion';
@@ -31,7 +31,7 @@ export default function Information() {
         initial={{ y: 100, opacity: 0 }}  // Start below and invisible
         animate={{ y: 0, opacity: 1 }}   // Move up and fade in
         transition={{ type: "spring", stiffness: 50, damping: 10, duration: 10 }}className="block sm:hidden">
-            <Left3/>
+            <Mobile/>
         </motion.div>
     </div>
   )
