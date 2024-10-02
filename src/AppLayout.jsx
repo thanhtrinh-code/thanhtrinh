@@ -15,8 +15,8 @@ export default function AppLayout() {
         <Outlet/>
         <div className='w-full border-[0.6px] border-neutral-600'>
         </div>
-        {!openChat ? <FaRocketchat onClick={() => setOpenChat(open => !open)} size={60} className='text-white bottom-8 right-5 sm:bottom-10 sm:right-10 fixed bg-red-300 rounded-full p-3 sm:p-3'/> 
-        : <FaXmark onClick={() => setOpenChat(open => !open)} size={60} className='text-white bottom-8 right-5 sm:bottom-10 sm:right-10 fixed bg-red-300 rounded-full p-3 sm:p-3'/> }
+        {/* {!openChat ? <FaRocketchat onClick={() => setOpenChat(open => !open)} size={60} className='text-white bottom-8 right-5 sm:bottom-10 sm:right-10 fixed bg-red-300 rounded-full p-3 sm:p-3'/> 
+        : <FaXmark onClick={() => setOpenChat(open => !open)} size={60} className='text-white bottom-8 right-5 sm:bottom-10 sm:right-10 fixed bg-red-300 rounded-full p-3 sm:p-3'/> } */}
         
         {openChat && <ChatBot/>}
         <Footer/>

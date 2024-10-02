@@ -15,34 +15,34 @@ export default function Experience() {
                 NON-TECHNICAL EXPERIENCE
             </p>
       </div>
-      <div className='sm:w-[72%] text-white flex'>
-          <div className='w-1/2'>
+      <div className='sm:w-[72%] text-white flex mb-14'>
+          <div className='w-1/2 font-bold text-4xl'>
             Hong Kong Market
           </div>
           <div className='w-1/2'>
-              <p>
+              <p className='text-white text-3xl mb-2'>
                 Cashier
               </p>
-              <p>
+              <p className='text-gray-400 text-xl mb-8'>
                 2001 - 2005
               </p>
-              <p>
+              <p className='text-gray-400 text-xl'>
                 My main responsibilities included managing the daily sales, handling customer complaints, and maintaining the store's cleanliness.
               </p>
           </div>
       </div>
-      <div className='sm:w-[72%] text-white flex'>
-          <div className='w-1/2'>
+      <div className='sm:w-[72%] text-white flex mb-14'>
+          <div className='w-1/2 font-bold text-4xl'>
             Thomas Jefferson High School
           </div>
           <div className='w-1/2'>
-              <p>
+              <p className='text-white text-3xl mb-2'>
                 Tutor
               </p>
-              <p>
-                2001 - 2005
+              <p className='text-gray-400 text-xl mb-8'>
+                2022-2023
               </p>
-              <p>
+              <p className='text-gray-400 text-xl'>
                 My main responsibilities included managing the daily sales, handling customer complaints, and maintaining the store's cleanliness.
               </p>
           </div>

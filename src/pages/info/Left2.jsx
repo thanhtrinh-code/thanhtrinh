@@ -7,7 +7,7 @@ export default function Left2() {
         <img src="auburn.jpg" alt="Auburn" className="w-[470px] h-[660px] object-cover rounded-3xl shadow-md border p-2"/>
     </div>
 <div className="flex flex-col gap-7">
-     <p className="text-xl font-semibold pt-10">My background in Computer Science</p>
+     <p className="text-xl font-semibold pt-10">Taking a break</p>
 
      <p className='text-[1.1rem] text-[#f2f2f296]'>I have a strong foundation in computer science, and 
         I've recently earned a degree in Computer Science from a prestigious university.
