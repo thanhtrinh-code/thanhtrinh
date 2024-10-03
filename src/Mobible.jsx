@@ -1,8 +1,8 @@
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaXmark } from "react-icons/fa6";
 
-export default function Mobible({currentUrl, handleToggleMenu}) {
-    
+export default function Mobible({currentUrl, openInfo, setOpenInfo}) {
   return (
     <div className="flex sm:hidden gap-8">
         <div className="flex border border-solid p-1 py-1.5 rounded-full border-gray-500">
@@ -26,7 +26,8 @@ export default function Mobible({currentUrl, handleToggleMenu}) {
     </Link>
     </div>
     <div className='flex items-center sm:hidden'>
-            <FaBars size={20} onClick={handleToggleMenu}/>
+            {openInfo ? <FaXmark size={20} onClick={() => setOpenInfo(open => !open)}/> :
+            <FaBars size={20} onClick={() => setOpenInfo(open => !open)}/>}
         </div>
       </div>
   )

@@ -7,19 +7,17 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import Mobible from "../Mobible";
 
-export default function NavBar() {
+export default function NavBar({setOpenInfo, openInfo}) {
     const location = useLocation();
     const currentUrl = location.pathname;
-    const [openMenu, setOpenMenu] = useState(false); 
-    const handleToggleMenu = () => setOpenMenu(openMenu => !openMenu);
 
   return (
-    <nav className='flex justify-between sm:justify-around items-center p-4 bg-inherit text-white '>
+    <nav className='z-50 fixed flex w-[100%] justify-between sm:justify-around items-center pt-4 pr-4 pl-4 pb-2 bg-inherit text-white '>
       <div className="font-thin sm:text-left">
         <h5 className='text-xl font-medium'>Thanh Trinh</h5>
         <p className='text-sm text-gray-400'>Software Engineer</p>
       </div>
-      <Mobible currentUrl={currentUrl} handleToggleMenu={handleToggleMenu}/>
+      <Mobible currentUrl={currentUrl} openInfo={openInfo} setOpenInfo={setOpenInfo}/>
     <div className='hidden sm:block relative ml-28'>
   <div className='flex p-2 border border-solid border-gray-500 rounded-full bg-black ml-32'>
     <motion.div
@@ -71,7 +69,8 @@ export default function NavBar() {
             <span>Resume</span>
             </div>
             </a>
-        </div>  
+        </div>
+
     </nav>
   )
 }

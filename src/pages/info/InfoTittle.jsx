@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function InfoTittle() {
   return (
-    <div className='w-full flex justify-center sm:mt-36 pl-[1.1rem] mt-14 mb-10 sm:mb-24'>
+    <div className='w-full flex justify-center sm:pt-36 pl-[1.1rem] pt-28 mb-10 sm:mb-24'>
         <div className="sm:w-[72%]">
             <p className='text-sm font-bold text-[#9a9a9ad2] tracking-widest mb-8 sm:mb-16'>
                 <span style={{

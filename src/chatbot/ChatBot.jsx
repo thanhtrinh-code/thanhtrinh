@@ -34,7 +34,7 @@ export default function ChatBot() {
     <div className='fixed sm:top-[14rem] sm:right-[4.5rem] top-0 right-0 w-full h-full sm:w-[24rem] sm:h-[30rem] bg-white z-10 flex flex-col'>
         <div className='flex flex-col h-full overflow-y-auto'>
             {messages.map((msg, index) => (
-                <div key={index} className={`flex items-start gap-4 ${msg.role === 'bot'? 'text-gray-500' : 'text-white'}`}>
+                <div key={index} className={`flex items-start gap-4 ${msg.role === 'bo t'? 'text-gray-500' : 'text-white'}`}>
                     <div className='rounded-full bg-gray-200 px-4 py-2'>
                         {msg.message}
                     </div>

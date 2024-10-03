@@ -89,6 +89,9 @@ export default function Footer() {
             <p className='text-sm text-gray-400'>
               Made with passion and pho with nine cooked beef
             </p>
+            <p className='text-sm font-light text-gray-400 pt-5'>
+            Credit to Perry Wang for website
+            </p>
           </div>
         </div>
     </footer>

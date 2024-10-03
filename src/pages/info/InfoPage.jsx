@@ -8,8 +8,8 @@ export default function InfoPage() {
     <>
         <InfoTittle/>
         <Information/>
-        <div className='w-full flex justify-center bg-inherit pt-36 pb-20'>
-          <div className='w-[72%] border-[0.6px] border-neutral-600'>
+        <div className='w-full flex justify-center bg-inherit pt-24 sm:pt-36 pb-14 sm:pb-20'>
+          <div className='w-[72%] border-[0.6px] border-neutral-400'>
           </div>
         </div>
         <Experience/>
