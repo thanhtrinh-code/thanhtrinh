@@ -1,6 +1,6 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function ProjectCard({url, title, description, color, hoverColor}) {
+export default function ProjectCard({pic, title, description, color, hoverColor}) {
   return (
     <div className='sm:w-[76%] h-96 sm:h-[92%] border border-solid border-[#f0f1f27d] rounded-3xl p-2'>
           <div className={`w-full h-full border border-solid border-[#f0f1f235] rounded-3xl hover:border-white 
@@ -20,7 +20,7 @@ export default function ProjectCard({url, title, description, color, hoverColor}
             </div>
             <div className='w-full h-full flex justify-center items-end pb-2'>
             <div className="w-5/6 h-full bg-cover bg-center rounded-xl" style={{
-                backgroundImage: `url('/${url}')`}}>
+                backgroundImage: `url('/${pic}')`}}>
             </div>
             </div>
           </div>

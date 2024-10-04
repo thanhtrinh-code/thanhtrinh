@@ -5,17 +5,17 @@ export default function Projects() {
   return (
     <>
         <div className='hidden sm:flex w-full h-screen bg-black  justify-center items-center'>
-            <ProjectCard url="smart-flash.jpg" title="Smart-Flash" description="An AI generated flashcard application."
+            <ProjectCard pic="smart-flash.jpg" title="Smart-Flash" description="An AI generated flashcard application."
             hoverColor='from-cyan-600 to-gray-600'
             />
         </div>
         <div className='hidden sm:flex w-full h-screen bg-black justify-center items-center'>
-            <ProjectCard url="UwProfessorAi.jpeg" title="Uw Professor Ai" description="A chatbot professor assistant"
+            <ProjectCard pic="UwProfessorAi.jpeg" title="Uw Professor Ai" description="A chatbot professor assistant"
             hoverColor='from-purple-900 to-gray-900'
             />
         </div>
         <div className='hidden sm:flex w-full h-screen bg-black  justify-center items-center'>
-            <ProjectCard url="inventory-management-system.jpeg" title="Inventory Management" description="Keep track of what in inventory"
+            <ProjectCard pic="inventory-management-system.jpeg" title="StockPoint" description="Keep track of what in inventory"
             hoverColor='from-emerald-800 to-stone-800'
             />
         </div>
@@ -24,13 +24,13 @@ export default function Projects() {
 
         {/**Mobile*/}
         <div className="w-full sm:hidden bg-black flex flex-col gap-5 py-5 px-1">
-            <ProjectCard url="smart-flash.jpg" title="Smart-Flash" description="An AI generated flashcard application."
+            <ProjectCard pic="smart-flash.jpg" title="Smart-Flash" description="An AI generated flashcard application."
             color='bg-cyan-500'
             />
-            <ProjectCard url="UwProfessorAi.jpeg" title="Uw Professor Ai" description="A chatbot professor assistant"
+            <ProjectCard pic="UwProfessorAi.jpeg" title="Uw Professor Ai" description="A chatbot professor assistant"
             color='bg-purple-800'
             />
-            <ProjectCard url="inventory-management-system.jpeg" title="Smart-Flash" description="An AI generated flashcard application."
+            <ProjectCard pic="inventory-management-system.jpeg" title="StockPoint" description="Keep track of what in inventory"
             color='bg-teal-800'
             />
         </div>
