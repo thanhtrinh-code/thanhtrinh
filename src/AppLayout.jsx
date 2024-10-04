@@ -13,7 +13,7 @@ export default function AppLayout() {
   const [openInfo, setOpenInfo] = useState(false);
 
   return (
-    <div className='w-screen h-screen bg-black'>
+    <div className='w-[99vw] h-screen bg-black'>
         <NavBar setOpenInfo={setOpenInfo} openInfo={openInfo}/>
         {openInfo && (
           <div className='z-50 fixed w-40 h-[10rem] pl-1 py-2 top-[4.8rem] right-3 bg-gray-700 bg-opacity-70 rounded-2xl shadow-lg'>
