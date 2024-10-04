@@ -29,7 +29,7 @@ export default function Footer() {
       Info
     </a>
     <p className='text-base font-light text-gray-400 pt-16'>
-    Credit to Perry Wang for website
+    Credit to Perry Wang for website idea
     </p>
   </div>
 
@@ -90,7 +90,7 @@ export default function Footer() {
               Made with passion and pho with nine cooked beef
             </p>
             <p className='text-sm font-light text-gray-400 pt-5'>
-            Credit to Perry Wang for website
+            Credit to Perry Wang for website idea
             </p>
           </div>
         </div>

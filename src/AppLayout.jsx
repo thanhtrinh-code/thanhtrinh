@@ -48,24 +48,3 @@ export default function AppLayout() {
     </div>
   )
 }
-/**
- 
-<a href="https://github.com/thanhtrinh-code">
-                <div className='flex items-center p-3 rounded-full px-4 hover:bg-[#9598958b] hover:cursor-pointer'>
-                    <FaGithub size={20} className='mr-1' />
-                <span>Github</span>
-                </div>
-            </a>
-            <a href="https://www.linkedin.com/in/thanhduytrinh/">
-            <div className='flex items-center p-3 rounded-full hover:bg-[#9598958b]'>
-            <FaLinkedin size={20} className='mr-1' />
-            <span>LinkedIn</span>
-            </div>
-            </a>
-            <a href="/thanh_trinh_2027.pdf">
-            <div className='flex items-center p-3 rounded-full hover:bg-[#9598958b]'>
-            <GrDocumentText size={20} className='mr-1' />
-            <span>Resume</span>
-            </div>
-            </a>
- */
